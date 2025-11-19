@@ -24,9 +24,7 @@ tbody > tr:nth-child(even) {
 .simple-list > li:nth-child(3) {
   background-color: var(--primary);
 }
-.simple-list > li:nth-child(6) {
-  background-color: var(--secondary);
-}
+
 .nested-list > li:nth-child(3) {
   background-color: var(--secondary);
 }
