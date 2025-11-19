@@ -1,0 +1,39 @@
+:root {
+  --primary: red;
+  --secondary: green;
+}
+#email {
+  border: 1px solid var(--primary);
+  outline: red;
+}
+button[data-role="primary"] {
+  border: 1px solid var(--primary);
+}
+article[data-status="error"] {
+  color: var(--primary);
+}
+/* thead {
+  background-color: var(--secondary);
+} */
+tbody > tr:nth-child(odd) {
+  background-color: var(--primary);
+}
+tbody > tr:nth-child(even) {
+  background-color: var(--secondary);
+}
+.simple-list > li:nth-child(3) {
+  background-color: var(--primary);
+}
+.simple-list > li:nth-child(6) {
+  background-color: var(--secondary);
+}
+.nested-list > li:nth-child(3) {
+  background-color: var(--secondary);
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+article > h2 ~ p::first-letter {
+  font-size: 50px;
+}
