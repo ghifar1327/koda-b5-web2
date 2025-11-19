@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: skyblue;
+}
+
+nav,footer{
+  font-size: 100px;
+  padding: 20px;
+  text-align: center;
+  background-color: yellow;
+}
+
+main {
+  height: 130vh;
+}
+.question{
+    text-align: center;
+    position: relative;
+    top: 20%;
+  font-size: 70px;
+}
+.instagram {
+    
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+}
+img{
+    height: 60px;
+    width: 60px;
+}
