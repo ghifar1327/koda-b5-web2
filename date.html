@@ -6,12 +6,15 @@
     <title>Document</title>
     <style>
       * {
-
-          box-sizing: border-box;
-    }
-      div > div {
-          border: 1px solid black;
+        box-sizing: border-box;
         text-align: center;
+      }
+      div {
+        font-size: 0;
+      }
+      div > div {
+        font-size: 16px;
+        border: 1px solid black;
         display: inline-block;
         background-color: bisque;
         width: 100px;
@@ -21,9 +24,13 @@
         font-weight: 700;
         background-color: aqua;
       }
+      .after-before-date{
+        color: gray;
+      }
     </style>
   </head>
   <body>
+    <h1>Kalender November</h1>
     <div class="days">
       <div>MINGGU</div>
       <div>SENIN</div>
@@ -34,12 +41,12 @@
       <div>SABTU</div>
     </div>
     <div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
+      <div class="after-before-date">26</div>
+      <div class="after-before-date">27</div>
+      <div class="after-before-date">28</div>
+      <div class="after-before-date">29</div>
+      <div class="after-before-date">30</div>
+      <div class="after-before-date">31</div>
       <div>1</div>
     </div>
     <div>
@@ -80,12 +87,12 @@
     </div>
     <div>
       <div>30</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
-      <div>-</div>
+      <div class="after-before-date">1</div>
+      <div class="after-before-date">2</div>
+      <div class="after-before-date">3</div>
+      <div class="after-before-date">4</div>
+      <div class="after-before-date">5</div>
+      <div class="after-before-date">6</div>
     </div>
   </body>
 </html>
